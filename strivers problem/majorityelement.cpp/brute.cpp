@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// this is the brute approach for the problem .
 int main () {
      vector<int> vec;
      int n;
