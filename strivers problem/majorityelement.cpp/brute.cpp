@@ -21,7 +21,7 @@ int main () {
              }
          }
          if(count  > p) {
-            cout << "The majority element is" << endl << vec[j];
+            cout << "The majority element  is" << endl << vec[j];
          }
        }
 
