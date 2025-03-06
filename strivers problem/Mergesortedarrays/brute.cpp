@@ -33,14 +33,6 @@ int main() {
         for(vector<int>::iterator it = nums1.begin(); it != nums1.end(); it++){
              cout << *(it) << " ";
         } 
-        // for(int l = 0; l<unionarr.size(); l++) {
-        //      cout << unionarr[l] << " ";
-        // }
-
-
-
-
-
 
      return 0;
 }
