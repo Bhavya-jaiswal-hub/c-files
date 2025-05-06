@@ -17,19 +17,16 @@ int main() {
 
 
       for(int j = 0; j < arrsize; j++) {
-              if(j*j == target){
-                 cout << j;
+              if(array[j]*array[j] == target){
+                 cout << array[j];
                  break;
               }
 
-              else if(j*j < target && (j+1)*(j+1) > target){
-                 cout << j;
+              else if(array[j]*array[j] < target && array[j+1]*array[j+1] > target){
+                 cout << array[j];
                  cout << endl;
               }
-              else {
-                 cout << "The sqrt of a given number not found in the array";
-                 break;
-              }
+              
       }
 
      return 0;
