@@ -1,0 +1,7 @@
+//  in the 32 - bit architecture the the pointer variable takes the 4 bit and in the 64 - bit architeucture the pointer variable takes 
+  // the 8 bits to store the address 
+
+//  How to convert the array to the linked list 
+
+// Always the head of the linked list and rememner never ever tampered the head 
+// Traversal in the linked list 
