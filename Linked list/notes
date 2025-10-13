@@ -5,3 +5,11 @@
 
 // Always the head of the linked list and rememner never ever tampered the head 
 // Traversal in the linked list 
+
+// Node x = Node(2,nullptr) --> this is just the object 
+
+// Node y = &x; --> this is just to add the address of the x node in the y
+
+
+// for making the combination of both of these things 
+// Node* y =  new Node(2,nullptr)
