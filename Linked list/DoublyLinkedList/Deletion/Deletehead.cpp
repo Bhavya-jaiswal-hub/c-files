@@ -83,6 +83,8 @@ Node* removeKthElement(Node* head, int k ) {
      Node* front = temp->next;
      prev->next = temp->next;
      front->back = temp->back;
+     temp ->next = nullptr;
+     temp ->back = nullptr;
      delete(temp);  
 
      if(prev == NULL && front == NULL) {
@@ -108,7 +110,7 @@ int main() {
     //  head = deleteHead(head);
     // head = deleteTail(head);
 
-    head = removeKthElement(head, 3);
+    head = removeKthElement(head, 2);
       print(head);
     return 0;
      
